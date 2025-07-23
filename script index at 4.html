@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script index at 4.css">
+</head>
+<body>
+    <h2>Remove script if it starts at index 4</h2>
+    <input type="text"id="inputString" placeholder="Enter your string">
+    <button onclick="checkAndRemoveScript()">CheckString</button>
+    <div id="result"></div>
+    <script>
+        function checkAndRemoveScript(){
+            const input=document.getElementById("inputString").value;
+            const target ="Script";
+            const index=4;
+            let result;
+            if(input.substring(index,index+target.length)==target){
+                result=input.slice(0,index)+input.slice(index+target.length);
+            }
+            else{
+                result=input;
+            }
+            document.getElementById("result").textContent="Result : "+result;
+        }
+    </script>
+</body>
+
+</html>

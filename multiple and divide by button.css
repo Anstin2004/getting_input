@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    font-size: 1.5em;
+    background-color: rgb(240, 255, 254);
+    color: rgb(23, 69, 63);
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    margin: 10px;
+    font-size: 1em;
+    background-color: rgb(246, 253, 252);
+    color: rgb(23, 69, 63);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover{
+    background-color:rgb(23, 69, 63) ;
+    color:rgb(240, 255, 254);
+    transition: 1s;
+    border-radius: 5px;
+}
