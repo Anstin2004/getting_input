@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 235, 235);
+    color: rgb(13, 88, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+
+}
+input{
+    background-color: rgb(235, 235, 235);
+    color: rgb(13, 88, 92);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+button{
+    color: rgb(235, 235, 235);
+    background-color: rgb(13, 88, 92);
+    font-size: 1em;
+    margin-left: 70px;
+    
+}
